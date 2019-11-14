@@ -1,0 +1,87 @@
+body {
+	margin: 0px;
+}
+.main-logo{
+justify-content: flex-start;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.container {
+	width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+justify-content: space-between;
+
+}
+
+
+.main-header .container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+.main-nav ul {
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+}
+
+
+
+#linkItemInHeader{
+background-color:blue
+}
+
+#header-links {
+	height: 30%;
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: left;
+	color: white;
+
+}
+
+#welcome-section {
+	height: 90vh;
+	width: 100%;
+	position: relative;
+}
+#welcome-section > .row {
+	height: 100%;
+	width: 100%;
+} 
+#welcome-background{
+	height: 100%;
+	width: 100%;
+	background-image: url('./world.jpeg');/* This is not fixed, can be changed */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#welcome-text {
+	position: absolute;
+	top: 80%;
+	left: 30%;
+}
+
+#welcome-text > h2, h3 {
+	color: white;
+}
+
+
+
